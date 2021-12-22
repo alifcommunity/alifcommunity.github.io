@@ -10,13 +10,15 @@ const githubRepoUrl = "https://github.com/alifcommunity/next-website";
 const config = {
   title: "لغة البرمجة العربية ألف - Arabic Programming Language",
   tagline: "لغة ألف",
-  url: "https://aliflang.org",
+
+  organizationName: "alifcommunity",
+  projectName: "alifcommunity.github.io",
+  url: "https://alifcommunity.github.io/",
   baseUrl: "/",
+
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "images/favicon.png",
-  organizationName: "alifcommunity", // Usually your GitHub org/user name.
-  projectName: "alif-website", // Usually your repo name.
 
   presets: [
     [
