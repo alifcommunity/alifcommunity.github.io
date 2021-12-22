@@ -40,23 +40,23 @@ function Header() {
 
 function Section1() {
   return (
-    <section id={clsx(styles["one"])} class={clsx(styles["wrapper"])}>
-      <div class={clsx(styles["inner"])}>
-        <div class={clsx(styles["flex"], styles["flex-2"])}>
+    <section id={clsx(styles["one"])} className={clsx(styles["wrapper"])}>
+      <div className={clsx(styles["inner"])}>
+        <div className={clsx(styles["flex"], styles["flex-2"])}>
           <article>
-            <div class={clsx(styles["image"], styles["fit"])}>
+            <div className={clsx(styles["image"], styles["fit"])}>
               <img src="images/alif_education.jpg" alt="لغة ألف" />
             </div>
           </article>
 
           <article>
-            <div class={clsx(styles["image"], styles["fit"])}>
+            <div className={clsx(styles["image"], styles["fit"])}>
               <img src="images/alif_calc.png" alt="لغة ألف" />
             </div>
           </article>
         </div>
 
-        <div class={clsx(styles["flex"], styles["flex-2"])}>
+        <div className={clsx(styles["flex"], styles["flex-2"])}>
           <article>
             <header>
               <p
@@ -115,7 +115,7 @@ function Section1() {
           </article>
         </div>
 
-        <hr class={clsx(styles["major"])} />
+        <hr className={clsx(styles["major"])} />
 
         <header style={{ textAlign: "center" }}>
           <blockquote>
@@ -136,9 +136,9 @@ function Section1() {
           </blockquote>
         </header>
 
-        <hr class={clsx(styles["major"])} />
+        <hr className={clsx(styles["major"])} />
 
-        <div class={clsx(styles["flex"], styles["flex-3"])}>
+        <div className={clsx(styles["flex"], styles["flex-3"])}>
           <article>
             <header style={{ textAlign: "center" }}>
               <img src="images/win.png" alt="" />
@@ -160,7 +160,7 @@ function Section1() {
             <footer>
               <a
                 href="download"
-                class={clsx(
+                className={clsx(
                   styles["button"],
                   styles["special"],
                   styles["icon"],
@@ -193,7 +193,7 @@ function Section1() {
             <footer>
               <a
                 href="download"
-                class={clsx(
+                className={clsx(
                   styles["button"],
                   styles["special"],
                   styles["icon"],
@@ -226,7 +226,7 @@ function Section1() {
             <footer>
               <a
                 href="download"
-                class={clsx(
+                className={clsx(
                   styles["button"],
                   styles["special"],
                   styles["icon"],
@@ -239,15 +239,15 @@ function Section1() {
           </article>
         </div>
 
-        <hr class={clsx(styles["major"])} />
+        <hr className={clsx(styles["major"])} />
 
         <header>
           <h2 style={{ textAlign: "center" }}>تعليم</h2>
         </header>
 
-        <div class={clsx(styles["row"])}>
-          <div class={clsx(styles["u6"], styles["u12-sm"])}>
-            <div class={clsx(styles["image"], styles["fit"])}>
+        <div className={clsx(styles["row"])}>
+          <div className={clsx(styles["u6"], styles["u12-sm"])}>
+            <div className={clsx(styles["image"], styles["fit"])}>
               <a href="learn">
                 <img src="images/alif_book_shot.png" alt="PDF لغة ألف" />
               </a>
@@ -267,15 +267,15 @@ function Section1() {
             <div style={{ align: "center", textAlign: "center" }}>
               <a
                 href="docs/intro"
-                class={clsx(styles["button"], styles["special"])}
+                className={clsx(styles["button"], styles["special"])}
               >
                 الوثائق
               </a>
             </div>
           </div>
 
-          <div class={clsx(styles["u6"], styles["u12-sm"])}>
-            <div class={clsx(styles["image"], styles["fit"])}>
+          <div className={clsx(styles["u6"], styles["u12-sm"])}>
+            <div className={clsx(styles["image"], styles["fit"])}>
               <a href="learn">
                 <img src="images/alif_youtube_shot.png" alt="لغة ألف" />
               </a>
@@ -295,7 +295,7 @@ function Section1() {
             <div style={{ align: "center", textAlign: "center" }}>
               <a
                 href="https://www.youtube.com/channel/UCPIieSaqaSh6dL5dmYxZ6hg/playlists"
-                class={clsx(
+                className={clsx(
                   styles["button"],
                   styles["special"],
                   styles["icon"],
@@ -316,9 +316,9 @@ function Section2() {
   return (
     <section
       id={clsx(styles["two"])}
-      class={clsx(styles["wrapper"], styles["style1"], styles["special"])}
+      className={clsx(styles["wrapper"], styles["style1"], styles["special"])}
     >
-      <div class={clsx(styles["inner"])}>
+      <div className={clsx(styles["inner"])}>
         <header>
           <h2>! التعاون</h2>
           <p style={{ fontSize: "24px" }}>
@@ -329,9 +329,9 @@ function Section2() {
           </p>
         </header>
 
-        <div class={clsx(styles["flex"], styles["flex-4"])}>
-          <div class={clsx(styles["box"], styles["person"])}>
-            <div class={clsx(styles["image"], styles["round"])}>
+        <div className={clsx(styles["flex"], styles["flex-4"])}>
+          <div className={clsx(styles["box"], styles["person"])}>
+            <div className={clsx(styles["image"], styles["round"])}>
               <img src="images/twitter_128.png" alt="Person 1" />
             </div>
             <h3>مساهمة إعلامية</h3>
@@ -343,8 +343,8 @@ function Section2() {
             </p>
           </div>
 
-          <div class={clsx(styles["box"], styles["person"])}>
-            <div class={clsx(styles["image"], styles["round"])}>
+          <div className={clsx(styles["box"], styles["person"])}>
+            <div className={clsx(styles["image"], styles["round"])}>
               <img src="images/cpp_128.png" alt="Person 2" />
             </div>
             <h3>مساهمة تقنية</h3>
@@ -365,14 +365,14 @@ function Section2() {
             </p>
             <a
               href="https://www.aliflang.org/community"
-              class={clsx(styles["button"], styles["special"], styles["fit"])}
+              className={clsx(styles["button"], styles["special"], styles["fit"])}
             >
               مجتمع ألف
             </a>
           </div>
 
-          <div class={clsx(styles["box"], styles["person"])}>
-            <div class={clsx(styles["image"], styles["round"])}>
+          <div className={clsx(styles["box"], styles["person"])}>
+            <div className={clsx(styles["image"], styles["round"])}>
               <img src="images/paypal_128.png" alt="Person 3" />
             </div>
             <h3>مساهمة مادية</h3>
@@ -383,7 +383,7 @@ function Section2() {
             </p>
             <a
               href="donations"
-              class={clsx(styles["button"], styles["special"], styles["fit"])}
+              className={clsx(styles["button"], styles["special"], styles["fit"])}
             >
               مساهمة
             </a>
@@ -398,9 +398,9 @@ function Section3() {
   return (
     <section
       id={clsx(styles["three"])}
-      class={clsx(styles["wrapper"], styles["special"])}
+      className={clsx(styles["wrapper"], styles["special"])}
     >
-      <div class={clsx(styles["inner"])}>
+      <div className={clsx(styles["inner"])}>
         <header style={{ textAlign: "center" }}>
           <h2>! تعرف أكثر</h2>
           <p style={{ fontSize: "22px" }}>
@@ -408,9 +408,9 @@ function Section3() {
           </p>
         </header>
 
-        <div class={clsx(styles["flex"], styles["flex-2"])}>
+        <div className={clsx(styles["flex"], styles["flex-2"])}>
           <article>
-            <div class={clsx(styles["image"], styles["fit"])}>
+            <div className={clsx(styles["image"], styles["fit"])}>
               <img src="images/alif_hello_world.png" alt="لغة ألف" />
             </div>
             <header>
@@ -455,7 +455,7 @@ function Section3() {
           </article>
 
           <article>
-            <div class={clsx(styles["image"], styles["fit"])}>
+            <div className={clsx(styles["image"], styles["fit"])}>
               <img src="images/alif_code.png" alt="لغة ألف" />
             </div>
             <header>
