@@ -1,21 +1,3 @@
-body {
-  line-height: 1;
-  direction: rtl;
-}
-
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-overflow-style: auto;
-  box-sizing: border-box;
-}
-
-@-ms-viewport {
-  width: device-width;
-}
-
 .inner {
   max-width: 75em;
   margin: 0 auto;

@@ -101,7 +101,7 @@ const config = {
             ],
           },
         ],
-        copyright: `مجتمع ألف - ${new Date().getFullYear()}`,
+        copyright: `الحقوق محفوطة © ${new Date().getFullYear()} - مجتمع ألف`,
       },
       prism: {
         theme: lightCodeTheme,

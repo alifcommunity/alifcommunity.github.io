@@ -4,6 +4,17 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: "JF Flat Regular";
+  src: url("/fonts/JF-Flat-regular.eot");
+  src: url("/fonts/JF-Flat-regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/JF-Flat-regular.svg#JF Flat Regular") format("svg"),
+    url("/fonts/JF-Flat-regular.woff") format("woff"),
+    url("/fonts/JF-Flat-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #25c2a0;
@@ -14,6 +25,25 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "JF Flat Regular";
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-overflow-style: auto;
+  box-sizing: border-box;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  direction: rtl;
+  font-family: "JF Flat Regular";
 }
 
 .docusaurus-highlight-code-line {
@@ -23,6 +53,6 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

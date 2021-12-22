@@ -117,7 +117,7 @@ function Section1() {
 
         <hr class={clsx(styles["major"])} />
 
-        <header class={clsx(styles["align-center"])}>
+        <header style={{ textAlign: "center" }}>
           <blockquote>
             في سنة 2010، اتخذت قرار تطوير لغة برمجة عربية، من أجل تسهيل على
             الطلاب العرب تعلم مبادئ البرمجة بلغتهم الأم، فكرت في البداية بتطوير
@@ -140,7 +140,7 @@ function Section1() {
 
         <div class={clsx(styles["flex"], styles["flex-3"])}>
           <article>
-            <header class={clsx(styles["align-center"])}>
+            <header style={{ textAlign: "center" }}>
               <img src="images/win.png" alt="" />
               <h2>
                 ويندوز
@@ -173,7 +173,7 @@ function Section1() {
           </article>
 
           <article>
-            <header class={clsx(styles["align-center"])}>
+            <header style={{ textAlign: "center" }}>
               <img src="images/linux.png" alt="" />
               <h2>
                 لينكس
@@ -206,7 +206,7 @@ function Section1() {
           </article>
 
           <article>
-            <header class={clsx(styles["align-center"])}>
+            <header style={{ textAlign: "center" }}>
               <img src="images/mac.png" alt="" />
               <h2>
                 ماك أوس
@@ -242,7 +242,7 @@ function Section1() {
         <hr class={clsx(styles["major"])} />
 
         <header>
-          <h2 class={clsx(styles["align-center"])}>تعليم</h2>
+          <h2 style={{ textAlign: "center" }}>تعليم</h2>
         </header>
 
         <div class={clsx(styles["row"])}>
@@ -398,7 +398,7 @@ function Section3() {
       class={clsx(styles["wrapper"], styles["special"])}
     >
       <div class={clsx(styles["inner"])}>
-        <header class={clsx(styles["align-center"])}>
+        <header style={{ textAlign: "center" }}>
           <h2>! تعرف أكثر</h2>
           <p style={{ fontSize: "22px" }}>
             تعرف أكثر على لغة البرمجة العربية ألف
