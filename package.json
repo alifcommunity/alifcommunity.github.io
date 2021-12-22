@@ -37,6 +37,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
     "@docusaurus/types": "^2.0.0-beta.14",
+    "eslint": "^8.5.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-react": "^7.27.1"
   }

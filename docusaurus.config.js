@@ -20,6 +20,8 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "images/favicon.png",
 
+  i18n: { defaultLocale: "ar", locales: ["ar"] },
+
   presets: [
     [
       "classic",
@@ -63,8 +65,9 @@ const config = {
           },
           {
             href: githubOrgUrl,
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
           {
             type: "docsVersionDropdown",
@@ -116,7 +119,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      i18n: { defaultLocale: "ar" },
+      algolia: {
+        appId: "R2IYF7ETH7",
+        apiKey: "599cec31baffa4868cae4e79f180729b",
+        indexName: "docsearch",
+        contextualSearch: true,
+      },
     }),
 };
 

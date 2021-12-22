@@ -246,7 +246,7 @@ function Section1() {
         </header>
 
         <div class={clsx(styles["row"])}>
-          <div class={clsx(styles["6u"], styles["12u$(small)"])}>
+          <div class={clsx(styles["u6"], styles["u12-sm"])}>
             <div class={clsx(styles["image"], styles["fit"])}>
               <a href="learn">
                 <img src="images/alif_book_shot.png" alt="PDF لغة ألف" />
@@ -265,13 +265,16 @@ function Section1() {
               يجتاحه المبرمج لتعلم البرمجة باستعمال لغة البرمجة العربية ألف
             </p>
             <div style={{ align: "center", textAlign: "center" }}>
-              <a href="docs" class={clsx(styles["button"], styles["special"])}>
+              <a
+                href="docs/intro"
+                class={clsx(styles["button"], styles["special"])}
+              >
                 الوثائق
               </a>
             </div>
           </div>
 
-          <div class={clsx(styles["6u$"], styles["12u$(small)"])}>
+          <div class={clsx(styles["u6"], styles["u12-sm"])}>
             <div class={clsx(styles["image"], styles["fit"])}>
               <a href="learn">
                 <img src="images/alif_youtube_shot.png" alt="لغة ألف" />
