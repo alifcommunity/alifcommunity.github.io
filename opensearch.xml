@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>لغة البرمجة العربية ألف - Arabic Programming Language</ShortName>
+  <Description>Search لغة البرمجة العربية ألف - Arabic Programming Language</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://alifcommunity.github.io/images/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://alifcommunity.github.io//search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://alifcommunity.github.io//opensearch.xml" />
+  <moz:SearchForm>https://alifcommunity.github.io//</moz:SearchForm>
+</OpenSearchDescription>
