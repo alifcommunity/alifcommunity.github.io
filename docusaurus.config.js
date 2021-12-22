@@ -57,6 +57,11 @@ const config = {
             label: "التوثيقات",
           },
           {
+            href: "https://alifcommunity.github.io/alif-editor",
+            position: "left",
+            label: "محرر ألف",
+          },
+          {
             href: githubOrgUrl,
             label: "GitHub",
             position: "right",
@@ -84,6 +89,10 @@ const config = {
               {
                 label: "تويتر",
                 href: "https://twitter.com/aliflanguage",
+              },
+              {
+                label: "تيليجرام",
+                href: "https://t.me/aliflang",
               },
             ],
           },
