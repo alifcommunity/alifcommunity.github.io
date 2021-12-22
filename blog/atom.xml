@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://alifcommunity.github.io/blog</id>
+    <title>لغة البرمجة العربية ألف - Arabic Programming Language Blog</title>
+    <updated>2021-12-22T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://alifcommunity.github.io/blog"/>
+    <subtitle>لغة البرمجة العربية ألف - Arabic Programming Language Blog</subtitle>
+    <icon>https://alifcommunity.github.io/images/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[المدونة الأولى]]></title>
+        <id>/2021/12/22/first-blog</id>
+        <link href="https://alifcommunity.github.io/blog/2021/12/22/first-blog"/>
+        <updated>2021-12-22T00:00:00.000Z</updated>
+        <author>
+            <name>Muhammad Al-Sawalhy</name>
+            <uri>https://github.com/MuhammadSawalhy</uri>
+        </author>
+    </entry>
+</feed>

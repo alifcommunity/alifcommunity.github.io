@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbook=self.webpackChunkbook||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u0627\u0644\u0645\u062f\u0648\u0646\u0629 \u0627\u0644\u0623\u0648\u0644\u0649","permalink":"/blog/2021/12/22/first-blog"}]}')}}]);
