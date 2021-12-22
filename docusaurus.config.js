@@ -9,14 +9,14 @@ const githubRepoUrl = "https://github.com/alifcommunity/next-website";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "لغة البرمجة العربية ألف - Arabic Programming Language",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  tagline: "لغة ألف",
+  url: "https://aliflang.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "images/favicon.png",
+  organizationName: "alifcommunity", // Usually your GitHub org/user name.
+  projectName: "alif-website", // Usually your repo name.
 
   presets: [
     [
@@ -42,10 +42,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "ألف",
+        // title: "ألف",
         logo: {
           alt: "شعار ألف",
-          src: "img/logo.svg",
+          src: "images/alif-group.jpg",
         },
         items: [
           {
