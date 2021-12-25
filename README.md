@@ -1,28 +1,56 @@
-# Website
+#  مشروع الموقع القادم (مازال قيد التطوير)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+تم بناء هذا الموقع بي إطار عمل [Docusaurus 2](https://docusaurus.io/), الذي يسهل إنشاء الموقع والتوثيقات بي كلا من الرياكت وملفات المارك دون
 
-### Installation
+المستودع يتضمن (تجريبية) :
+ - [الموقع الاساسي](https://alifcommunity.github.io/)
+ - [التوثيق](https://alifcommunity.github.io/docs/intro/)
+ - [مدونة](https://alifcommunity.github.io/blog/)
 
+
+### متطلبات المشروع :
+
+```
+ * node.js
+ * git
+ * yarn او npm
+```
+
+### لتثبيت المشروع
+
+لتحميل المستودع :
+
+```
+$ git clone https://github.com/waseeld/alifcommunity.github.io.git
+```
+
+لتثبيت التبعيات :
+```
+$ cd alifcommunity.github.io/
+
+$ npm install
+```
+
+لتثبيت التبعيات بستخدام يارن (موصى به):
 ```
 $ yarn
 ```
 
-### Local Development
+### لتشغيل الموقع محلياً
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+عند تنفيذك هذا الامر في الطرفية سيقوم بتشغيل المشروع مبدئيا على `http://localhost:3000/`.
 
-### Build
+### بناء الموقع
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+سيقوم هذا الأمر بإنشاء ملفات الموقع الثابته على المسار `build`.
 
 ### Deployment
 
