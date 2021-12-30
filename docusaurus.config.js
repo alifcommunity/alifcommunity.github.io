@@ -113,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `الحقوق محفوطة © ${new Date().getFullYear()} - مجتمع ألف`,
+        copyright: `الحقوق محفوظة © ${new Date().getFullYear()} - مجتمع ألف`,
       },
       prism: {
         theme: lightCodeTheme,

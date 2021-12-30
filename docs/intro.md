@@ -29,7 +29,7 @@ sidebar_position: 1
 }
 
 
-نطاق رياضيات
+مجال رياضيات
 
 	دالة عدد جيب ( عدد أ )
       عدد حقيقي
@@ -37,7 +37,7 @@ sidebar_position: 1
       إرجاع حقيقي
 	نهاية دالة 
 
-نهاية نطاق
+نهاية مجال
 
 -- للوصل لشيء داخل النطاق ⬇️
 رياضيات::جيب(الزاوية)
@@ -48,5 +48,15 @@ my_var = True
 def the_def:
   class TheClass:
     pass
-  return TheClass
+  yield TheClass
+  yield 1234
+```
+
+```c
+#include <stdio.h>
+
+int main() {
+  int exit_code = 0;
+  return exit_code;
+}
 ```
